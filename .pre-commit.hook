@@ -1,6 +1,7 @@
 #!/bin/bash
 
-OPTIONS="--style=kr --indent=spaces=4 --indent-switches"
+#OPTIONS="--style=kr --indent=spaces=4 --indent-switches"
+OPTIONS="--style=kr --indent=spaces=4 --indent-switches --pad-oper --pad-header"
 
 RETURN=0
 ASTYLE=$(which astyle)
